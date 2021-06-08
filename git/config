@@ -1,0 +1,16 @@
+[user]
+	email = taiki@konnyak.com
+	name = "Taiki Kanda"
+
+[core]
+	editor = vim
+
+[color]
+	ui = true
+
+[alias]
+	br = branch
+	cm = commit
+	ps = push
+	st = status
+	sw = switch
