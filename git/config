@@ -9,8 +9,6 @@
 	ui = true
 
 [alias]
-	br = branch
 	cm = commit
 	ps = push
 	st = status
-	sw = switch
