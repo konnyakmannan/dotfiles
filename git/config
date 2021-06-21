@@ -12,3 +12,7 @@
 	cm = commit
 	ps = push
 	st = status
+
+[credential "https://github.com"]
+        helper = 
+        helper = !/usr/bin/gh auth git-credential
