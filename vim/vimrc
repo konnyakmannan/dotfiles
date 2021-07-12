@@ -2,6 +2,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'lepture/vim-jinja'
   Plug 'editorconfig/editorconfig-vim'
+  Plug 'tyru/eskk.vim'
 call plug#end()
 
 syntax on
@@ -52,6 +53,11 @@ set laststatus=2
 
 " filetype
 au BufNewFile,BufRead *.njk set ft=jinja
+
+" skk
+let g:eskk#directory = "~/.config/eskk"
+let g:eskk#dictionary = { 'path': "~/.config/eskk/my_jisyo", 'sorted': 1, 'encoding': 'utf-8',}
+let g:eskk#large_dictionary = {'path': "~/.config/eskk/SKK-JISYO.L", 'sorted': 1, 'encoding': 'euc-jp',}
 
 " GoTo code navigation.
 nmap <silent> gd <Plug>(coc-definition)
