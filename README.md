@@ -1,4 +1,6 @@
-# `.config`
+# `~/.*`
+
+My dotfiles.
 
 ## Plugin manager
 
